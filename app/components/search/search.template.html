@@ -1,0 +1,5 @@
+<form class="search">
+    how's the weather in
+    <input class="search__input" ng-model="$ctrl.location">
+    <input value="go" type="submit" class="search__button" ng-click="$ctrl.onSearch({location: $ctrl.location})" />
+</form>

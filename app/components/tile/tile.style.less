@@ -1,0 +1,44 @@
+.tile {
+  display: block;
+  padding: 20px;
+  background: @bg-colour;
+  border-top: 1px solid rgba(255,255,255,0.25);
+  font-size: 1.2em;
+}
+
+.tile:first-child {
+  margin-bottom: 50px;
+  border-top: 0;
+}
+
+.tile:first-child .tile__day {
+  display: none;
+}
+
+.tile:first-child .tile__temp {
+  padding-right: 20px;
+  width: 75%;
+  font-size: 2.5em;
+}
+
+.tile:first-child .tile__desc {
+  font-size: 2em;
+}
+
+.tile:nth-child(2) {
+  border-top: 0;
+}
+
+.tile__day {
+  display: inline-block;
+  width: 35%;
+}
+
+.tile__temp {
+  display: inline-block;
+  width: 40%;
+}
+
+.tile__desc {
+  display: inline-block;
+}

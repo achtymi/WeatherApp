@@ -1,0 +1,20 @@
+This is a web app that allows users to query weather conditions for any city and updates the background image to match the city
+
+Technologies utilized:
+- HTML
+- CSS (LESS)
+- JavaScript (AngularJS)
+
+Steps to launch project:
+1) Open command line path to:    /WeatherApp
+2) Install packages via command: npm install
+3) Run local server via command: gulp
+4) View project in browser at:   http://localhost:9005/
+
+I can be reached via:
+- JonChanDev@gmail.com
+- http://www.JonChan.ca
+
+I can be reached via:
+- JonChanDev@gmail.com
+- http://www.JonChan.ca
